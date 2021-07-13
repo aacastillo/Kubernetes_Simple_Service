@@ -76,6 +76,7 @@ EOF
 5. Make sure the service is up in the cluster
 
 ```kubectl get svc product-list```
+
 6. Query the product-list from the test pod
 
 ```kubectl exec busybox1 -- curl -s product-list```
